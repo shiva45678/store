@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://store.newtonsai.com/</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Category: Software -->
+    <url>
+        <loc>https://store.newtonsai.com/?category=Software</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Category: Infrastructure (Machines) -->
+    <url>
+        <loc>https://store.newtonsai.com/?category=Infrastructure</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Category: Diagnostics -->
+    <url>
+        <loc>https://store.newtonsai.com/?category=Diagnostics</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Category: Medicine -->
+    <url>
+        <loc>https://store.newtonsai.com/?category=Medicine</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Category: Furniture -->
+    <url>
+        <loc>https://store.newtonsai.com/?category=Furniture</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Category: Power & Appliances -->
+    <url>
+        <loc>https://store.newtonsai.com/?category=Power</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Category: Marketing -->
+    <url>
+        <loc>https://store.newtonsai.com/?category=Marketing</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Category: Consumables -->
+    <url>
+        <loc>https://store.newtonsai.com/?category=Consumables</loc>
+        <lastmod>2026-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>

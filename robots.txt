@@ -1,0 +1,16 @@
+# Robots.txt for Newtons Store
+# https://store.newtonsai.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://store.newtonsai.com/sitemap.xml
+
+# Crawl-delay (optional, be gentle on small servers)
+Crawl-delay: 1
+
+# Disallow sensitive paths
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /node_modules/
