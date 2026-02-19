@@ -1,453 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Primary SEO Meta Tags -->
-    <title>Newtons Store | Hospital Equipment & Clinical Software Marketplace India</title>
-    <meta name="title" content="Newtons Store | Hospital Equipment & Clinical Software Marketplace India">
-    <meta name="description"
-        content="India's leading clinical marketplace for hospital equipment, diagnostic machines, lab consumables, medical software & healthcare infrastructure. AI-integrated HMS, CBC machines, ECG, biochemistry analyzers & more. Free delivery across India.">
-    <meta name="keywords"
-        content="hospital equipment, medical equipment India, clinical software, hospital management system, HMS software, diagnostic machines, lab equipment, CBC machine, ECG machine, biochemistry analyzer, medical supplies, healthcare infrastructure, Newtons AI, clinical marketplace, hospital furniture, diagnostic kits, lab consumables">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
-    <meta name="author" content="Newtons Clinical Systems">
-    <meta name="revisit-after" content="7 days">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://store.newtonsai.com/">
-
-    <!-- Theme Color for Mobile Browsers -->
-    <meta name="theme-color" content="#2563EB">
-    <meta name="msapplication-TileColor" content="#2563EB">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://store.newtonsai.com/">
-    <meta property="og:title" content="Newtons Store | Hospital Equipment & Clinical Software Marketplace">
-    <meta property="og:description"
-        content="India's leading clinical marketplace for hospital equipment, diagnostic machines, lab consumables, medical software & healthcare infrastructure. AI-integrated solutions with free delivery.">
-    <meta property="og:image" content="https://store.newtonsai.com/logo.png">
-    <meta property="og:site_name" content="Newtons Store">
-    <meta property="og:locale" content="en_IN">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://store.newtonsai.com/">
-    <meta name="twitter:title" content="Newtons Store | Hospital Equipment & Clinical Software Marketplace">
-    <meta name="twitter:description"
-        content="India's leading clinical marketplace for hospital equipment, diagnostic machines, lab consumables & medical software. AI-integrated HMS with free delivery.">
-    <meta name="twitter:image" content="https://store.newtonsai.com/logo.png">
-
-    <!-- Structured Data: Organization -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Newtons Clinical Systems",
-        "alternateName": "Newtons Store",
-        "url": "https://store.newtonsai.com",
-        "logo": "https://store.newtonsai.com/logo.png",
-        "description": "India's leading clinical marketplace for hospital equipment and healthcare software",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "availableLanguage": ["English", "Hindi"]
-        },
-        "sameAs": []
-    }
-    </script>
-
-    <!-- Structured Data: WebSite with Search Action -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Newtons Store",
-        "url": "https://store.newtonsai.com",
-        "description": "Clinical marketplace for hospital equipment, diagnostic machines, and medical software",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://store.newtonsai.com/?search={search_term_string}"
-            },
-            "query-input": "required name=search_term_string"
-        }
-    }
-    </script>
-
-    <!-- Structured Data: LocalBusiness -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "MedicalBusiness",
-        "name": "Newtons Store",
-        "image": "https://store.newtonsai.com/logo.png",
-        "url": "https://store.newtonsai.com",
-        "description": "Clinical marketplace for hospital equipment and healthcare infrastructure",
-        "priceRange": "₹₹",
-        "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "IN"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "20.5937",
-            "longitude": "78.9629"
-        },
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens": "00:00",
-            "closes": "23:59"
-        }
-    }
-    </script>
-
-    <!-- Preconnect for Performance -->
-    <link rel="preconnect" href="https://cdn.tailwindcss.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-
-    <link rel="icon" type="image/png" href="/logo.png">
-    <link rel="apple-touch-icon" href="/logo.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" href="https://dr.newtons.in/logo.png">
+    <title>Newtons Store | The Clinical OS Marketplace</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
             --brand-blue: #2563EB;
             --brand-indigo: #4F46E5;
-            --safe-area-bottom: env(safe-area-inset-bottom, 0px);
-            --safe-area-top: env(safe-area-inset-top, 0px);
         }
-
-        * {
-            -webkit-tap-highlight-color: transparent;
-        }
-
-        html {
-            scroll-behavior: smooth;
-            -webkit-overflow-scrolling: touch;
-        }
-
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
             background-color: #FDFDFD;
             -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            overscroll-behavior-y: contain;
-            color: #1f2937;
         }
-
-        html.dark body,
         .dark body {
             background-color: #020617;
-            color: #f1f5f9;
         }
-
-        /* Smooth GPU-accelerated animations - no shaky transforms */
+        
+        /* Custom Animations */
         @keyframes float {
-
-            0%,
-            100% {
-                transform: translate3d(0, 0, 0);
-            }
-
-            50% {
-                transform: translate3d(0, -5px, 0);
-            }
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0px); }
         }
-
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-            will-change: transform;
-        }
-
+        .animate-float { animation: float 6s ease-in-out infinite; }
+        
         @keyframes shine {
-            0% {
-                transform: translateX(-100%) skewX(-25deg);
-            }
-
-            20%,
-            100% {
-                transform: translateX(200%) skewX(-25deg);
-            }
+            0% { left: -100%; }
+            20% { left: 100%; }
+            100% { left: 100%; }
         }
-
         .shine-effect {
             position: relative;
             overflow: hidden;
         }
-
         .shine-effect::after {
             content: "";
             position: absolute;
             top: 0;
-            left: 0;
+            left: -100%;
             width: 50%;
             height: 100%;
-            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+            transform: skewX(-25deg);
             animation: shine 4s infinite;
-            will-change: transform;
         }
 
         .glass {
-            background: rgba(255, 255, 255, 0.85);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
         }
-
         .dark .glass {
-            background: rgba(15, 23, 42, 0.85);
+            background: rgba(15, 23, 42, 0.8);
         }
 
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-        .no-scrollbar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-
-        /* Smooth stagger animation - using opacity and translate3d for GPU acceleration */
-        .stagger-in>* {
+        .stagger-in > * {
             opacity: 0;
-            transform: translate3d(0, 12px, 0);
-            animation: staggerFadeIn 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+            transform: translateY(10px);
+            animation: fadeIn 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
         }
-
-        @keyframes staggerFadeIn {
-            to {
-                opacity: 1;
-                transform: translate3d(0, 0, 0);
-            }
-        }
-
-        .stagger-in>*:nth-child(1) {
-            animation-delay: 0.03s;
-        }
-
-        .stagger-in>*:nth-child(2) {
-            animation-delay: 0.06s;
-        }
-
-        .stagger-in>*:nth-child(3) {
-            animation-delay: 0.09s;
-        }
-
-        .stagger-in>*:nth-child(4) {
-            animation-delay: 0.12s;
-        }
-
-        .stagger-in>*:nth-child(5) {
-            animation-delay: 0.15s;
-        }
-
-        .stagger-in>*:nth-child(6) {
-            animation-delay: 0.18s;
-        }
-
-        /* Smooth slide animations for mobile sidebar */
-        @keyframes slideInLeft {
-            from {
-                transform: translate3d(-100%, 0, 0);
-            }
-
-            to {
-                transform: translate3d(0, 0, 0);
-            }
-        }
-
-        @keyframes slideOutLeft {
-            from {
-                transform: translate3d(0, 0, 0);
-            }
-
-            to {
-                transform: translate3d(-100%, 0, 0);
-            }
-        }
-
-        .slide-in-left {
-            animation: slideInLeft 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-            will-change: transform;
-        }
-
-        .slide-out-left {
-            animation: slideOutLeft 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-            will-change: transform;
-        }
-
-        /* Smooth fade for overlays */
         @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
+            to { opacity: 1; transform: translateY(0); }
         }
+        .stagger-in > *:nth-child(1) { animation-delay: 0.05s; }
+        .stagger-in > *:nth-child(2) { animation-delay: 0.1s; }
+        .stagger-in > *:nth-child(3) { animation-delay: 0.15s; }
+        .stagger-in > *:nth-child(4) { animation-delay: 0.2s; }
 
-        @keyframes fadeOut {
-            from {
-                opacity: 1;
-            }
-
-            to {
-                opacity: 0;
-            }
-        }
-
-        .fade-in {
-            animation: fadeIn 0.2s ease-out forwards;
-        }
-
-        /* Smooth zoom for modals - no shake */
-        @keyframes zoomIn {
-            from {
-                opacity: 0;
-                transform: scale3d(0.95, 0.95, 1);
-            }
-
-            to {
-                opacity: 1;
-                transform: scale3d(1, 1, 1);
-            }
-        }
-
-        .zoom-in {
-            animation: zoomIn 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-            will-change: transform, opacity;
-        }
-
-        /* Toast slide up animation */
-        @keyframes slideUpFade {
-            from {
-                opacity: 0;
-                transform: translate3d(-50%, 20px, 0);
-            }
-
-            to {
-                opacity: 1;
-                transform: translate3d(-50%, 0, 0);
-            }
-        }
-
-        .toast-animate {
-            animation: slideUpFade 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-            will-change: transform, opacity;
-        }
-
-        /* Mobile-specific optimizations */
         @media (max-width: 768px) {
-
-            /* Better touch targets - only for interactive elements, not spans */
-            button:not(.inline-btn),
-            [role="button"] {
-                min-height: 44px;
-            }
-
-            /* Smooth active states instead of shaky hover */
-            .touch-scale {
-                transition: transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            }
-
-            .touch-scale:active {
-                transform: scale3d(0.97, 0.97, 1);
-            }
-
-            /* Improved text readability */
-            .mobile-text-base {
-                font-size: 14px;
-                line-height: 1.5;
-            }
-
-            /* Safe area padding for notched devices */
-            .safe-area-bottom {
-                padding-bottom: max(16px, var(--safe-area-bottom));
-            }
-
-            .safe-area-top {
-                padding-top: max(12px, var(--safe-area-top));
-            }
-
-            /* Fix for fixed position elements on iOS */
-            .fixed-ios {
+            .mobile-search-focus:focus-within {
                 position: fixed;
-                transform: translateZ(0);
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+                padding: 0.5rem;
+                background: white;
             }
-
-            /* Smooth scroll containers */
-            .scroll-smooth-mobile {
-                -webkit-overflow-scrolling: touch;
-                scroll-behavior: smooth;
+            .dark .mobile-search-focus:focus-within {
+                background: #020617;
             }
-
-            /* Product grid mobile optimization */
-            .mobile-product-grid {
-                gap: 12px !important;
-            }
-        }
-
-        /* Small phone screens */
-        @media (max-width: 375px) {
-            .mobile-text-sm {
-                font-size: 11px;
-            }
-
-            .mobile-compact {
-                padding-left: 12px;
-                padding-right: 12px;
-            }
-        }
-
-        /* Improved button press states */
-        .btn-press {
-            transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
-        }
-
-        .btn-press:active {
-            transform: scale3d(0.96, 0.96, 1);
-        }
-
-        /* Card hover/active states - smooth, no shake */
-        .card-interactive {
-            transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-                box-shadow 0.2s ease-out;
-        }
-
-        .card-interactive:hover {
-            transform: translate3d(0, -2px, 0);
-        }
-
-        .card-interactive:active {
-            transform: translate3d(0, 0, 0);
-        }
-
-        /* Icon animations - smooth rotate/scale */
-        .icon-animate {
-            transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        }
-
-        .icon-animate:hover {
-            transform: scale3d(1.1, 1.1, 1);
         }
     </style>
-  <script type="module" crossorigin src="/assets/index-AdpSazrl.js"></script>
-</head>
 
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DqM-HY2T.js"></script>
+</head>
 <body class="transition-colors duration-300">
     <div id="root"></div>
 </body>
-
 </html>
