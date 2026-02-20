@@ -5,105 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://dr.newtons.in/logo.png">
     <title>Newtons Store | The Clinical OS Marketplace</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --brand-blue: #2563EB;
-            --brand-indigo: #4F46E5;
-        }
-        body { 
-            font-family: 'Plus Jakarta Sans', sans-serif; 
-            background-color: #FDFDFD;
-            -webkit-font-smoothing: antialiased;
-        }
-        .dark body {
-            background-color: #020617;
-        }
-        
-        /* Custom Animations */
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-5px); }
-            100% { transform: translateY(0px); }
-        }
-        .animate-float { animation: float 6s ease-in-out infinite; }
-        
-        @keyframes shine {
-            0% { left: -100%; }
-            20% { left: 100%; }
-            100% { left: 100%; }
-        }
-        .shine-effect {
-            position: relative;
-            overflow: hidden;
-        }
-        .shine-effect::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 50%;
-            height: 100%;
-            background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
-            transform: skewX(-25deg);
-            animation: shine 4s infinite;
-        }
+    <link rel="stylesheet" href="/index.css">
 
-        .glass {
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-        }
-        .dark .glass {
-            background: rgba(15, 23, 42, 0.8);
-        }
-
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-
-        .stagger-in > * {
-            opacity: 0;
-            transform: translateY(10px);
-            animation: fadeIn 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
-        }
-        @keyframes fadeIn {
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .stagger-in > *:nth-child(1) { animation-delay: 0.05s; }
-        .stagger-in > *:nth-child(2) { animation-delay: 0.1s; }
-        .stagger-in > *:nth-child(3) { animation-delay: 0.15s; }
-        .stagger-in > *:nth-child(4) { animation-delay: 0.2s; }
-
-        @media (max-width: 768px) {
-            .mobile-search-focus:focus-within {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                z-index: 1000;
-                padding: 0.5rem;
-                background: white;
-            }
-            .dark .mobile-search-focus:focus-within {
-                background: #020617;
-            }
-        }
-    </style>
-
-<link rel="stylesheet" href="/index.css">
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.3",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
-  }
-}
-</script>
-  <script type="module" crossorigin src="/assets/index-DFhZ4Ul3.js"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.3",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+      }
+    }
+    </script>
+  <script type="module" crossorigin src="/assets/index-BD8Co4D2.js"></script>
 </head>
 <body class="transition-colors duration-300">
     <div id="root"></div>
